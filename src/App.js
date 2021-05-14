@@ -32,13 +32,13 @@ const App = withStyles(styles)(({ classes }) => {
         token = "";
       }
       const tokenResponse = await axios.post(
-        "https://nestful-api.herokuapp.com/users/tokenIsValid",
+        "https://nestful-api-v2.herokuapp.com/users/tokenIsValid",
         null,
         { headers: { "x-auth-token": token } }
       );
       if (tokenResponse.data) {
         const userRes = await axios.get(
-          "https://nestful-api.herokuapp.com/users/",
+          "https://nestful-api-v2.herokuapp.com/users/",
           {
             headers: { "x-auth-token": token },
           }
