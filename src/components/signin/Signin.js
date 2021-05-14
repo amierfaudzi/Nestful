@@ -17,7 +17,7 @@ import Container from "@material-ui/core/Container";
 import "./signin.style.scss";
 import { withStyles } from "@material-ui/core/styles";
 import { Link as RouterLink} from 'react-router-dom';
-import MaterialLink from '@material-ui/core/Link';
+// import MaterialLink from '@material-ui/core/Link';
 
 
 
@@ -125,9 +125,9 @@ const Signin = withStyles(styles)(({ classes, setCurrentTitle }) => {
           </Button>
           <Grid container justify="center">
             <Grid item>
-              <MaterialLink variant="body2" component={RouterLink} to='/signup'>
+              {/* <MaterialLink variant="body2" component={RouterLink} to='/signup'>
               Don't have an account? Sign Up
-              </MaterialLink>
+              </MaterialLink> */}
       
             </Grid>
           </Grid>
