@@ -16,7 +16,7 @@ import Typography from "@material-ui/core/Typography";
 import "./signup.style.scss";
 import Container from "@material-ui/core/Container";
 import { Link as RouterLink } from "react-router-dom";
-import MaterialLink from "@material-ui/core/link";
+// import MaterialLink from "@material-ui/core/link";
 
 // function Copyright() {
 //   return (
@@ -145,9 +145,9 @@ function SignUp({setCurrentTitle}) {
           </Button>
           <Grid container justify="center">
             <Grid item>
-              <MaterialLink variant="body2" component={RouterLink} to="/signin">
+              {/* <MaterialLink variant="body2" component={RouterLink} to="/signin">
                 Already have an account? Sign in
-              </MaterialLink>
+              </MaterialLink> */}
             </Grid>
           </Grid>
         </form>
