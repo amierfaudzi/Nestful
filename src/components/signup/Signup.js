@@ -47,11 +47,11 @@ function SignUp({setCurrentTitle}) {
     try {
       const newUser = { email, password, passwordCheck, displayName };
       await axios.post(
-        "https://nestful-api.herokuapp.com/users/register",
+        "https://nestfulv2.herokuapp.com/users/register",
         newUser
       );
       const loginResponse = await axios.post(
-        "https://nestful-api.herokuapp.com/users/login",
+        "https://nestfulv2.herokuapp.com/users/login",
         {
           email,
           password,
