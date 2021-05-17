@@ -13,6 +13,7 @@ import Stepper from "./steps/Stepper";
 import { withStyles } from "@material-ui/core/styles";
 import Welcome from "./components/welcome/Welcome";
 import NavMenu from "./components/nav-menu/NavMenu";
+import Home from "./pages/Home/Home";
 
 const styles = (theme) => ({});
 
@@ -59,6 +60,9 @@ const App = withStyles(styles)(({ classes }) => {
         <Router>
           <NavMenu currentTitle={currentTitle} />
           <Switch>
+            <Route path="/Home">
+              <Home />
+            </Route>
             <Route exact path="/">
               <Stepper setCurrentTitle={setCurrentTitle} />
             </Route>

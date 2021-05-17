@@ -1,0 +1,8 @@
+.hero {
+    border: 1px solid salmon;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
