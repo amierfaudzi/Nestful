@@ -1,0 +1,37 @@
+.section-faq {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.faq-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        font-size: 4rem;
+        font-weight: 500;
+        margin: 0;
+    }
+}
+
+.qa-card {
+    border-bottom: 2px solid black;
+}
+
+.question {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__content {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+.icon {
+    height: 1rem;
+    width: 1rem;
+}
