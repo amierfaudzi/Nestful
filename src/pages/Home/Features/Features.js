@@ -1,8 +1,8 @@
 import React from 'react';
-import { ReactComponent as StartUp } from '../../assets/Startup.svg';
-import { ReactComponent as Valuation } from '../../assets/Valuations.svg';
-import { ReactComponent as Growth } from '../../assets/Growth.svg';
-import { ReactComponent as TextLine } from '../../assets/textLine.svg';
+import { ReactComponent as StartUp } from '../../../assets/Startup.svg';
+import { ReactComponent as Valuation } from '../../../assets/Valuations.svg';
+import { ReactComponent as Growth } from '../../../assets/Growth.svg';
+import { ReactComponent as TextLine } from '../../../assets/textLine.svg';
 
 export default function Features() {
     return (

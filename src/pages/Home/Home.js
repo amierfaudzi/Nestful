@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.scss';
-import FAQ from '../../components/FAQ/FAQ';
-import Features from '../../components/Features/Features';
+import FAQ from './FAQ/FAQ';
+import Features from './Features/Features';
+import JourneyTimeline from './JourneyTimeline/JourneyTimeline';
 
 
 export default function Home() {
@@ -27,7 +28,8 @@ export default function Home() {
                 </div>
                 <button>Get Started</button>
             </section> */}
-                    <FAQ/>
+                    {/* <FAQ/> */}
+                    <JourneyTimeline />
         </div>
     )
 }

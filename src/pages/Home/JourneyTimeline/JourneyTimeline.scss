@@ -1,0 +1,4 @@
+.vertical-timeline::before {
+    top: 28px;
+    height: calc(100% - 2*28px);
+}

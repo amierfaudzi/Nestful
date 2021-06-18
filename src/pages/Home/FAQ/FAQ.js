@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ReactComponent as More } from '../../assets/Plus.svg'
+import { ReactComponent as More } from '../../../assets/Plus.svg'
 import './FAQ.scss';
 
 export default function FAQ() {
