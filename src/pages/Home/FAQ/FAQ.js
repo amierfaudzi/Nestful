@@ -27,9 +27,9 @@ export default function FAQ() {
         setFaq(newFaq)
     }
     return (
-        <section className="section-faq">
+        <section className="section-faq" id="faq">
             <div className="faq-header">
-                <p className="faq-header__content">FAQ</p>
+                <p className="faq-header__content">How it works</p>
             </div>
             {faq.map((item, index) => {
                 return (

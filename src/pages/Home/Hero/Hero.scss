@@ -1,0 +1,20 @@
+@import '../../../partials/variables';
+
+.section-home-hero {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section-home-hero::after {
+    content: '';
+    background-image: linear-gradient($secondary, $secondary-0);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

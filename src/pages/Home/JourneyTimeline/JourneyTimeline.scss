@@ -2,3 +2,24 @@
     top: 28px;
     height: calc(100% - 2*28px);
 }
+
+.section-journey-timeline {
+    background-color: #114B5F;
+}
+
+.section-journey-timeline {
+    h2, p {
+        color: wheat;
+    }
+
+    padding-bottom: 2rem;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    // padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }

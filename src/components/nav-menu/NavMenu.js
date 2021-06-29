@@ -4,7 +4,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
 import { Link as RouterLink } from "react-router-dom";
-// import MaterialLink from "@material-ui/core/link";
+import MaterialLink from "@material-ui/core/link";
 import EggLogo from "../../assets/nestegg.svg";
 import { Box } from "@material-ui/core";
 
@@ -56,14 +56,14 @@ const NavMenuComponent = withStyles(styles)(
                 style={{ maxHeight: 80, padding: 10 }}
               />
               <Typography variant="h3" color="textSecondary">
-                {/* <MaterialLink
+                <MaterialLink
                   color="inherit"
                   className={`${classes.link} ${classes.branding}`}
                   component={RouterLink}
                   to="/"
                 >
                   Nestful
-                </MaterialLink> */}
+                </MaterialLink>
               </Typography>
             </Box>
 

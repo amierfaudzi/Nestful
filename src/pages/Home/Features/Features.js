@@ -1,4 +1,5 @@
 import React from 'react';
+import './Features.scss';
 import { ReactComponent as StartUp } from '../../../assets/Startup.svg';
 import { ReactComponent as Valuation } from '../../../assets/Valuations.svg';
 import { ReactComponent as Growth } from '../../../assets/Growth.svg';
@@ -6,7 +7,7 @@ import { ReactComponent as TextLine } from '../../../assets/textLine.svg';
 
 export default function Features() {
     return (
-<section className="section__features">
+<section className="section__features" id="features">
                 <div className="section__features--header">
                     <div className="section__features--header-title">
                         <h2>Nestful is built to support you during the entire retirement journey</h2>

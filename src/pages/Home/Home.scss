@@ -30,7 +30,7 @@
             }
 
             &-subtitle {
-                max-width: 1080px;
+                // max-width: 1080px;
 
                 p {
                     font-size: 24px;
@@ -43,7 +43,7 @@
 .container {
 
     &--feature {
-        width: 100vw;
+        // width: 100vw;
         display: flex;
         justify-content: space-evenly;
     }
@@ -107,3 +107,10 @@
         width: 300px;
     }
 }
+
+// svg {
+//     display: inline-block;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
